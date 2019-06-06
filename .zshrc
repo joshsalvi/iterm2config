@@ -224,6 +224,7 @@ alias gcc="gcc-7"
 export CC=/usr/local/bin/gcc-7
 export CXX=/usr/local/bin/g++-7
 source activate moseq2
+fast-theme free
 
 clear
 
