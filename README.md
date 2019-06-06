@@ -10,8 +10,8 @@
 2. Once the repository is cloned, run the installer:
     
     ```
-    cd ~
-    ./iterm2config/install.sh
+    cd ~/iterm2config
+    ./install.sh
     ```
 
     This will install iTerm2 from the command line (which you can later update), along with the appropriate theming and plugins. 
