@@ -5,8 +5,9 @@ echo "Installing iTerm2..."
 cd ~/Downloads
 curl -O https://iterm2.com/downloads/stable/iTerm2-3_2_7.zip
 shasum -a 256 iTerm2-3_2_7.zip
-unzip iTerm2-3_2_7.zip
+unzip -q iTerm2-3_2_7.zip
 mv iTerm.app/ /Applications/
+rm iTerm2-3_2_7.zip
 cd ~
 echo "DONE!"
 

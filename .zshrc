@@ -55,7 +55,6 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
 # zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
-
 # Supports oh-my-zsh plugins and the like
 if [[ $OSTYPE = (linux)* ]]; then
     zplug "plugins/archlinux", from:oh-my-zsh, if:"which pacman"
@@ -230,3 +229,5 @@ clear
 
 # Dynamic MOTD
 php -f /etc/dynmotd | bash
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
