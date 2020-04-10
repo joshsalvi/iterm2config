@@ -10,19 +10,12 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 #                                   Aliases
 # =============================================================================
 
-# Python
-# Anaconda 2 alias
-alias conda="$HOME/anaconda2/bin/conda"
-alias apy="$HOME/anaconda2/bin/python"
-
 # Sudo
 alias sudo='sudo '
 
 # SSH
 alias sshnmr="echo "Connecting\ to\ NMR..." &&ssh jq210@door.nmr.mgh.harvard.edu"
-alias sshhome="echo "Connecting\ to\ server\ remotely..." && ssh -p24 root@joshsalvi.ddns.net"
-alias sshhomelocal="echo "Connecting\ to\ server\ locally..." && ssh -p24 root@192.168.0.108"
-alias sshipmilocal="echo "Connecting\ to\ server\ IPMI\ locally..." && ssh sysadmin@192.168.0.105"
+alias ssheris="echo "Connecting\ to\ server\ IPMI\ locally..." && ssh jq210@erisone.partners.org"
 
 # Helper commands
 alias rm='rm -v'
@@ -45,9 +38,3 @@ alias p='pushd'
 # alias update="apt-get update && apt-get upgrade && apt-get dist-upgrade"
 alias update="sudo softwareupdate -ia"
 
-#export PATH="$HOME/anaconda2/bin:$PATH"
-# cat >> ~/.bashrc << END
-# PATH=\$HOME/miniconda3/bin:\$PATH
-# END
-# source $HOME/.bashrcPATH=$HOME/miniconda3/bin:$PATH
-PATH=$HOME/miniconda3/bin:$PATH
