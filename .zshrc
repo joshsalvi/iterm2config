@@ -241,7 +241,7 @@ setopt extended_glob
 
 # SSH
 alias sshnmr="echo "Connecting\ to\ NMR..." &&ssh jq210@door.nmr.mgh.harvard.edu"
-alias ssheris="echo "Connecting\ to\ server\ IPMI\ locally..." && ssh jq210@erisone.partners.org"
+alias ssheris="echo "Connecting\ to\ server\ ERISone..." && ssh jq210@erisone.partners.org"
 
 # Helper commands
 alias rm='rm -v'
@@ -307,3 +307,4 @@ clear
 php -f /etc/dynmotd | bash
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
